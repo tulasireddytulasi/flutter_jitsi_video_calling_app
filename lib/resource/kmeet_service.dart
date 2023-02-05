@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:jitsi_meet/jitsi_meet.dart';
@@ -6,7 +7,7 @@ import 'package:jitsi_meet/jitsi_meet.dart';
 class KmeetService {
   static Future joinMeeting(
       {required String roomName, required String userName}) async {
-    String serverUrl = "https://meet.qa.karkinos.in";
+    String serverUrl = "https://meet.jit.si/";
 
     // Enable or disable any feature flag here
     // If feature flag are not provided, default values will be used

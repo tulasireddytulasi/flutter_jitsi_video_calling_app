@@ -65,8 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () async {
                   String userName = "Tulasi Reddy";
                   KmeetService.joinMeeting(
-                      roomName: "meet_the_doctor_19532021_075359",
-                      userName: userName);
+                      roomName: "KUF_JSS_JFJ", userName: userName);
                 },
                 child: const Text(
                   "Meeting",
